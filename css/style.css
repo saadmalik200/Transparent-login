@@ -52,15 +52,24 @@ input:focus {
   padding: 0.5rem;
 }
 
+input.top-email::placeholder {
+  padding: 0 3rem;
+}
+
+input.top-password::placeholder {
+  padding: 0 3rem;
+}
+
 input::placeholder {
   color: white;
 }
 
-.email,
-.password {
+.email2,
+.password2 {
   border-bottom: 4px solid #4caf50;
 
   margin-bottom: 5rem;
+  position: relative;
 }
 
 .button {
@@ -79,6 +88,25 @@ input::placeholder {
   padding: 1rem 30rem;
 }
 
+.email,
+.password {
+  border-bottom: 4px solid #4caf50;
+
+  margin-bottom: 5rem;
+}
+
 input.password1 {
   font-family: "Arial", FontAwesome;
+}
+
+.fa-at {
+  color: white;
+  position: absolute;
+  bottom: 0.7rem;
+}
+
+.fa-lock {
+  color: white;
+  position: absolute;
+  bottom: 0.7rem;
 }
